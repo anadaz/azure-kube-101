@@ -76,7 +76,7 @@ az aks browse --resource-group rg-kube-101 --name kube101
 az group delete --name rg-kube-101 --yes --no-wait
 ```
 
-##Other Commands
+## Other Commands
 
 List available contexts and  switch between clusters
 ```
@@ -88,7 +88,7 @@ List all pods
 ```
 kubectl get pods --all-namespaces
 ```
-##References
+## References
 * Azure Container Service with Kubernetes Documentation https://docs.microsoft.com/en-us/azure/container-service/kubernetes/
 * https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough
 
