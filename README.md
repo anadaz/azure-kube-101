@@ -1,5 +1,4 @@
 # azure-kube-101
-<<<<<<< HEAD
 
 # Create Kubernetes Cluster Using Azure CLI
 
@@ -94,5 +93,3 @@ kubectl get pods --all-namespaces
 * https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough
 
 
-=======
->>>>>>> 89ae341299f1b660beef92a676db9326a1e5a4a8
