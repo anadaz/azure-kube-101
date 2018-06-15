@@ -88,8 +88,13 @@ List all pods
 ```
 kubectl get pods --all-namespaces
 ```
+
+## Troubleshooting Guides
+The rule of thumb is when you do `kubectl logs` or `kubectl exec` the API server makes a request _to the_ kubelet. If you experience problems then [refer to this cheat cheat](https://s.itho.me/day/2017/k8s/1020-1100%20All%20The%20Troubles%20You%20Get%20Into%20When%20Setting%20Up%20a%20Production-ready%20Kubernetes%20Cluster.pdf).
+
 ## References
 * Azure Container Service with Kubernetes Documentation https://docs.microsoft.com/en-us/azure/container-service/kubernetes/
 * https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough
+* https://developer.atlassian.com/blog/2017/07/kubernetes-infra-on-aws/
 
 
